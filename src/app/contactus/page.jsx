@@ -15,7 +15,7 @@ function contactus() {
         {/* Page Header Box Start */}
         <div className="page-header-box">
           <h1 className="wow fadeInUp" data-cursor="-opaque">Contact us</h1>
-          <nav className="wow fadeInUp" data-wow-delay="0.2s">
+          {/* <nav className="wow fadeInUp" data-wow-delay="0.2s">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
                 <a href="index-2.html">home</a>
@@ -24,7 +24,7 @@ function contactus() {
                 contact us
               </li>
             </ol>
-          </nav>
+          </nav> */}
         </div>
         {/* Page Header Box End */}
       </div>

@@ -10,11 +10,11 @@ function Footer() {
             <div className="footer-header">
               {/* Footer Logo Start */}
               <div className="footer-logo">
-              <img
-                src="images/logo1.png"
-                alt="Logo"
-                style={{ height: 'auto', width: '150px' }}
-              />
+                <img
+                  src="images/logo1.png"
+                  alt="Logo"
+                  style={{ height: 'auto', width: '150px' }}
+                />
               </div>
               {/* Footer Logo End */}
 
@@ -32,22 +32,8 @@ function Footer() {
             {/* Footer Header End */}
           </div>
 
-          <div className="col-lg-4">
-            {/* Footer Newsletter Form Start */}
-            <div className="footer-links footer-newsletter-form">
-              <h3>Subscribe our newsletter:</h3>
-              <p>Protecting networks, systems data from evolving.</p>
-              <form id="newsletterForm" action="#" method="POST">
-                <div className="form-group">
-                  <input type="email" name="email" className="form-control" id="mail" placeholder="Enter Your Email" required />
-                  <button type="submit" className="newsletter-btn"><i className="fa-regular fa-paper-plane"></i></button>
-                </div>
-              </form>
-            </div>
-            {/* Footer Newsletter Form End */}
-          </div>
-
-          <div className="col-lg-2 col-md-3 col-6">
+          {/* Modified columns to use full width */}
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             {/* Footer Links Start */}
             <div className="footer-links footer-quick-links">
               <h3>Quick link</h3>
@@ -61,7 +47,7 @@ function Footer() {
             {/* Footer Links End */}
           </div>
 
-          <div className="col-lg-2 col-md-3 col-6">
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             {/* Footer Links Start */}
             <div className="footer-links">
               <h3>Services</h3>
@@ -75,7 +61,7 @@ function Footer() {
             {/* Footer Links End */}
           </div>
 
-          <div className="col-lg-2 col-md-3 col-6">
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             {/* Footer Links Start */}
             <div className="footer-links">
               <h3>Support</h3>
@@ -89,7 +75,7 @@ function Footer() {
             {/* Footer Links End */}
           </div>
 
-          <div className="col-lg-2 col-md-3 col-6">
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             {/* Footer Links Start */}
             <div className="footer-links">
               <h3>Contact</h3>

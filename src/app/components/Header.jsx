@@ -37,8 +37,8 @@ function Header() {
                     <a className="nav-link" href="/">Home</a>
                   </li>
                   <li className="nav-item"><a className="nav-link" href="/aboutus">About Us</a></li>
-                  <li className="nav-item"><a className="nav-link" href="services.html">Services</a></li>
-                  <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li>
+                  <li className="nav-item"><a className="nav-link" href="/services">Services</a></li>
+                  {/* <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li> */}
                   <li className="nav-item"><a className="nav-link" href="/contactus">Contact Us</a></li>
                 </ul>
               </div>

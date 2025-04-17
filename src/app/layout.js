@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         <meta name="author" content="Awaiken" />
 
         {/* Favicon */}
-        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="/images/logo1.png" />
 
         {/* Google Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
