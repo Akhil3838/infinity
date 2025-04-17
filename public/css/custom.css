@@ -329,9 +329,10 @@ body{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	max-width: 66px;
+	max-width: 156px;
 	transform: translate(-50%, -50%);
 }
+  
 
 @keyframes rotate-loading{
 	0%{
