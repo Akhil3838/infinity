@@ -1,8 +1,8 @@
 // app/layout.js
 
+import Script from "next/script";
 import ClientWrapper from "./components/ClientWrapper";
 
-// import Preloader from "./components/Preloader";
 export const metadata = {
   title: "Proshield - Cyber Security Services",
   description: "Proshield - Cyber Security Services HTML Template",
@@ -24,11 +24,7 @@ export default function RootLayout({ children }) {
         <meta name="author" content="Awaiken" />
 
         {/* Favicon */}
-        <link
-          rel="shortcut icon"
-          type="image/x-icon"
-          href="/images/favicon.png"
-        />
+        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
 
         {/* Google Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -49,27 +45,26 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/css/custom.css" />
       </head>
       <body>
-        {/* <Preloader/> */}
-       <ClientWrapper> {children}</ClientWrapper>
+        <ClientWrapper>{children}</ClientWrapper>
 
         {/* Scripts */}
-        <script src="/js/jquery-3.7.1.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/validator.min.js"></script>
-        <script src="/js/jquery.slicknav.js"></script>
-        <script src="/js/swiper-bundle.min.js"></script>
-        <script src="/js/jquery.waypoints.min.js"></script>
-        <script src="/js/jquery.counterup.min.js"></script>
-        <script src="/js/jquery.magnific-popup.min.js"></script>
-        <script src="/js/SmoothScroll.js"></script>
-        <script src="/js/parallaxie.js"></script>
-        <script src="/js/gsap.min.js"></script>
-        <script src="/js/magiccursor.js"></script>
-        <script src="/js/SplitText.js"></script>
-        <script src="/js/ScrollTrigger.min.js"></script>
-        <script src="/js/jquery.mb.YTPlayer.min.js"></script>
-        <script src="/js/wow.min.js"></script>
-        <script src="/js/function.js"></script>
+        <Script src="/js/jquery-3.7.1.min.js" strategy="afterInteractive" />
+        <Script src="/js/bootstrap.min.js" strategy="afterInteractive" />
+        <Script src="/js/validator.min.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.slicknav.js" strategy="afterInteractive" />
+        <Script src="/js/swiper-bundle.min.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.waypoints.min.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.counterup.min.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.magnific-popup.min.js" strategy="afterInteractive" />
+        <Script src="/js/SmoothScroll.js" strategy="afterInteractive" />
+        <Script src="/js/parallaxie.js" strategy="afterInteractive" />
+        <Script src="/js/gsap.min.js" strategy="afterInteractive" />
+        <Script src="/js/magiccursor.js" strategy="afterInteractive" />
+        <Script src="/js/SplitText.js" strategy="afterInteractive" />
+        <Script src="/js/ScrollTrigger.min.js" strategy="afterInteractive" />
+        <Script src="/js/jquery.mb.YTPlayer.min.js" strategy="afterInteractive" />
+        <Script src="/js/wow.min.js" strategy="afterInteractive" />
+        <Script src="/js/function.js" strategy="afterInteractive" />
       </body>
     </html>
   );
