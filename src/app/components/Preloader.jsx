@@ -21,7 +21,7 @@ const Preloader = () => {
       <div className="loading-container">
         <div className="loading"></div>
         <div id="loading-icon" >
-          <Image src="/images/logo1.png" alt="Loading..." width={60} height={40} />
+          <Image src="/images/logo2.png" alt="Loading..." width={50} height={50} />
         </div>
       </div>
     </div>
