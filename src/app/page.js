@@ -1,95 +1,181 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
+import Aboutus from "./components/Aboutus";
+import FaqSection from "./components/FaqSection";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import OurBlog from "./components/OurBlog";
+import OurFeature from "./components/OurFeature";
+import OurServices from "./components/OurServices";
+import Topborder from "./components/Topborder";
+import VideoReveal from "./components/VideoReveal";
+import WhyChooseUs from "./components/WhyChooseUs";
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+  <Topborder/>  
+  <Header/>  
+  {/* hero */}
+  <div className="hero parallaxie">
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-lg-7">
+            {/* Hero Content Start */}
+            <div className="hero-content">
+              {/* Section Title Start */}
+              <div className="section-title dark-section">
+                <h3 className="wow fadeInUp">welcome cyber security</h3>
+                <h1 className="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+                  Secure your world, effortlessly today!
+                </h1>
+                <p className="wow fadeInUp" data-wow-delay="0.4s">
+                  Protect your digital world with seamless, cutting-edge cybersecurity solutions designed to
+                  safeguard your data, systems, and peace of mind.
+                </p>
+              </div>
+              {/* Section Title End */}
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+              {/* Hero Content Body Start */}
+              <div className="hero-content-body wow fadeInUp" data-wow-delay="0.6s">
+                {/* Hero Button Start */}
+               
+                {/* Hero Button End */}
+
+                {/* Video Play Button Start */}
+                {/* <div className="video-play-button">
+                  
+                  <a
+                    href="https://www.youtube.com/watch?v=Y-x0efG1seA"
+                    className="popup-video"
+                    data-cursor-text="Play"
+                  >
+                    <i className="fa-solid fa-play"></i>
+                  </a>
+                  <h3>Play video</h3>
+                </div> */}
+                <VideoReveal/>
+                {/* Video Play Button End */}
+              </div>
+              {/* Hero Content Body End */}
+
+             
+            </div>
+            {/* Hero Content End */}
+          </div>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
     </div>
+    {/* hero end */}
+
+    {/* about start */}
+
+    <div className="about-us">
+      <div className="container">
+        <Aboutus/>
+      </div>
+    </div>
+    {/* about end */}
+
+    {/* our service */}
+    <OurServices/>
+
+    {/* our service end */}
+
+    <div className="our-feature">
+      <div className="container">
+    <OurFeature/>
+        
+      </div>
+    </div>
+    {/* our service end */}
+    {/* why choose us */}
+    <WhyChooseUs/>
+
+    {/* end od why choose us */}
+
+    {/* testimonial */}
+    {/* <Testimonials/> */}
+    {/*  end testimonial */}
+
+
+    <div className="our-blog">
+      <div className="container">
+        <div className="row section-row">
+          <div className="col-lg-12">
+            {/* Section Title Start */}
+            <div className="section-title">
+              <h3 className="wow fadeInUp">latest post</h3>
+              <h2 className="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
+                Our latest <span>insight blog</span>
+              </h2>
+            </div>
+            {/* Section Title End */}
+          </div>
+        </div>
+     <OurBlog/>
+      </div>
+    </div>
+    <FaqSection/>
+
+    <div className="cta-box-section">
+  <div className="container">
+    <div className="row">
+      <div className="col-lg-12">
+        {/* CTA Box Start */}
+        <div className="cta-box">
+          {/* CTA Box Content Start */}
+          <div className="cta-box-content">
+            {/* Section Title Start */}
+            <div className="section-title dark-section">
+              <h2 className="wow fadeInUp" data-cursor="-opaque">
+                Protect business, cyber security solution today!
+              </h2>
+            </div>
+            {/* Section Title End */}
+
+            {/* CTA Contact Info Start */}
+            <div className="cta-contact-info">
+              {/* CTA Contact Item Start */}
+              <div className="cta-contact-item">
+                <div className="icon-box">
+                  <img src="images/icon-phone.svg" alt="" />
+                </div>
+                <div className="cta-contact-content">
+                  <h3>Get contact now</h3>
+                  <p><a href="tel:+123456789">+123 456 789</a></p>
+                </div>
+              </div>
+              {/* CTA Contact Item End */}
+              
+              {/* CTA Contact Item Start */}
+              <div className="cta-contact-item">
+                <div className="icon-box">
+                  <img src="images/icon-mail.svg" alt="" />
+                </div>
+                <div className="cta-contact-content">
+                  <h3>Sent e-mail</h3>
+                  <p><a href="mailto:info@domainname.com">info@domainname.com</a></p>
+                </div>
+              </div>
+              {/* CTA Contact Item End */}
+            </div>
+            {/* CTA Contact Info End */}
+          </div>
+          {/* CTA Box Content End */}
+
+          {/* CTA Box Image Start */}
+          <div className="cta-box-image">
+            <figure className="image-anime reveal">
+              <img src="images/cta-box-image.jpg" alt="" />
+            </figure>
+          </div>
+          {/* CTA Box Image End */}
+        </div>
+        {/* CTA Box End */}
+      </div>
+    </div>
+  </div>
+</div>
+
+<Footer/>
+    </>
   );
 }
