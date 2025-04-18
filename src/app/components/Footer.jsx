@@ -38,10 +38,10 @@ function Footer() {
             <div className="footer-links footer-quick-links">
               <h3>Quick link</h3>
               <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="about.html">about us</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="blog-single.html">blog</a></li>
+                <li><a href="/">home</a></li>
+                <li><a href="/aboutus">about us</a></li>
+                <li><a href="/services">services</a></li>
+                <li><a href="/contactus">Contact us</a></li>
               </ul>
             </div>
             {/* Footer Links End */}
@@ -69,7 +69,6 @@ function Footer() {
                 <li><a href="#">Help</a></li>
                 <li><a href="#">Term's & condition</a></li>
                 <li><a href="#">Privacy policy</a></li>
-                <li><a href="contact.html">Contact us</a></li>
               </ul>
             </div>
             {/* Footer Links End */}
