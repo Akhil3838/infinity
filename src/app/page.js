@@ -1,8 +1,8 @@
 import Aboutus from "./components/Aboutus";
-import FaqSection from "./components/FaqSection";
+// import FaqSection from "./components/FaqSection";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import OurBlog from "./components/OurBlog";
+// import OurBlog from "./components/OurBlog";
 import OurFeature from "./components/OurFeature";
 import OurServices from "./components/OurServices";
 import Topborder from "./components/Topborder";
@@ -110,10 +110,10 @@ export default function Home() {
             {/* Section Title End */}
           </div>
         </div>
-     <OurBlog/>
+     {/* <OurBlog/> */}
       </div>
     </div>
-    <FaqSection/>
+    {/* <FaqSection/> */}
 
     <div className="cta-box-section">
   <div className="container">
