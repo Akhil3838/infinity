@@ -21,7 +21,7 @@ function Footer() {
               {/* Footer Social Links Start */}
               <div className="footer-social-links">
                 <ul>
-                  <li><a href="#"><i className="fa-brands fa-pinterest-p"></i></a></li>
+                  {/* <li><a href="#"><i className="fa-brands fa-pinterest-p"></i></a></li> */}
                   <li><a href="#"><i className="fa-brands fa-x-twitter"></i></a></li>
                   <li><a href="#"><i className="fa-brands fa-facebook-f"></i></a></li>
                   <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
@@ -52,10 +52,10 @@ function Footer() {
             <div className="footer-links">
               <h3>Services</h3>
               <ul>
-                <li><a href="service-single.html">Threat detection</a></li>
-                <li><a href="service-single.html">Endpoint security</a></li>
-                <li><a href="service-single.html">Network defense</a></li>
-                <li><a href="service-single.html">Data encryption</a></li>
+                <li><a href="/services">Kerala Vision Connection</a></li>
+                <li><a href="/services">Broadband Internet</a></li>
+                <li><a href="/services">Solar Connection Service</a></li>
+                <li><a href="/services">CCTV Service</a></li>
               </ul>
             </div>
             {/* Footer Links End */}

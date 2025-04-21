@@ -22,7 +22,7 @@ export default function Home() {
             <div className="hero-content">
               {/* Section Title Start */}
               <div className="section-title dark-section">
-                <h3 className="wow fadeInUp">welcome cyber security</h3>
+                <h3 className="wow fadeInUp">welcome Infinity</h3>
                 <h1 className="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
                   Secure your world, effortlessly today!
                 </h1>
@@ -164,7 +164,7 @@ export default function Home() {
           {/* CTA Box Image Start */}
           <div className="cta-box-image">
             <figure className="image-anime reveal">
-              <img src="images/cta-box-image.jpg" alt="" />
+              <img src="images/child.jpg" alt="" />
             </figure>
           </div>
           {/* CTA Box Image End */}

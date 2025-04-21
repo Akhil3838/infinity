@@ -11,7 +11,7 @@ function OurFeature() {
             <div className="our-feature-images">
               <div className="feature-image">
                 <figure className="image-anime reveal">
-                  <Image src="/images/feature-image-1.jpg" alt="Feature 1" width={500} height={500} />
+                  <Image src="/images/feature_1.jpg" alt="Feature 1" width={500} height={500} />
                 </figure>
               </div>
 

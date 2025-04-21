@@ -22,41 +22,41 @@ const OurServices = () => {
         <div className="row">
           {[
             {
-              icon: "images/icon-service-1.svg",
-              title: "Threat Detection and Prevention",
+              icon: "images/keralavision.png",
+              title: "Kerala Vision Digital tv connection",
               delay: "0s"
             },
             {
-              icon: "images/icon-service-2.svg",
-              title: "Endpoint Security Solutions",
+              icon: "images/broadband.png",
+              title: "Broadband internet connection ",
               delay: "0.2s",
               active: true
             },
             {
-              icon: "images/icon-service-3.svg",
-              title: "Network Defense and Firewalls",
+              icon: "images/solar.png",
+              title: "Solar Service",
               delay: "0.4s"
             },
             {
-              icon: "images/icon-service-4.svg",
-              title: "Data Encryption and Privacy",
+              icon: "images/cctv1.png",
+              title: "CCTV service",
               delay: "0.6s"
             },
             {
-              icon: "images/icon-service-5.svg",
-              title: "Cloud Security and Compliance",
+              icon: "images/automation1.png",
+              title: "Home Automation System",
               delay: "0.8s"
             },
             {
-              icon: "images/icon-service-6.svg",
-              title: "Incident Response and Management",
+              icon: "images/kfon.png",
+              title: "KFON broadband",
               delay: "1s"
             }
           ].map((service, index) => (
             <div className="col-lg-4 col-md-6" key={index}>
               {/* Service Item Start */}
               <div className={`service-item wow fadeInUp ${service.active ? "active" : ""}`} data-wow-delay={service.delay}>
-                <div className="icon-box">
+                <div className="icon-box ">
                   <img src={service.icon} alt="" />
                 </div>
                 <div className="service-title-box">
