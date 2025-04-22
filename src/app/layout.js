@@ -4,9 +4,9 @@ import Script from "next/script";
 import ClientWrapper from "./components/ClientWrapper";
 
 export const metadata = {
-  title: "Proshield - Cyber Security Services",
-  description: "Proshield - Cyber Security Services HTML Template",
-};
+  title: "Infinity",
+  description: "Infinity provides a range of digital and security services including Solar energy solutions, CCTV surveillance systems, Broadband internet, Kerala Vision Digital TV, and KFON broadband services."
+  };
 
 export default function RootLayout({ children }) {
   return (
