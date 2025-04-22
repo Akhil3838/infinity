@@ -57,7 +57,17 @@ const OurServices = () => {
               {/* Service Item Start */}
               <div className={`service-item wow fadeInUp ${service.active ? "active" : ""}`} data-wow-delay={service.delay}>
                 <div className="icon-box ">
-                  <img src={service.icon} alt="" />
+                <img
+  src={service.icon}
+  alt=""
+  style={{
+    maxWidth: "180px",
+    minWidth: "80px",
+    width: "100%",
+    height: "auto",
+    objectFit: "contain"
+  }}
+/>
                 </div>
                 <div className="service-title-box">
                   <div className="service-title">

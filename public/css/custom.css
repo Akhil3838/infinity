@@ -1334,15 +1334,15 @@ header.main-header .header-sticky.active{
 } */
 .service-item .icon-box {
 	position: relative;
-
-	height: 180px; /* or adjust to your design */
+	width: 100%;
+	max-width: 180px;
+	height: 180px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 90px;
+	margin: 0 auto 90px;
 	z-index: 1;
-}
-
+  }
 
 /* .service-item .icon-box img{
 	width: 100%;
@@ -1353,14 +1353,11 @@ header.main-header .header-sticky.active{
 	transition: all 0.4s ease-in-out;
 } */
 .service-item .icon-box img {
-	max-width: 100%;
-	max-height: 100%;
-	height: auto;
-	width: auto;
+	width: 100%;
+	height: 100%;
 	object-fit: contain;
 	transition: all 0.4s ease-in-out;
-}
-
+  }
 
 .service-item:hover .icon-box img,
 .service-item.active .icon-box img {
@@ -1453,6 +1450,22 @@ header.main-header .header-sticky.active{
 .service-item:hover .service-content p{
 	color: var(--white-color);
 }
+
+@media (max-width: 768px) {
+	.service-item .icon-box {
+	  max-width: 120px;
+	  height: 120px;
+	  margin-bottom: 60px;
+	}
+  
+	.service-item .icon-box img {
+	  max-width: 250px;
+	  height: 250px;
+	}
+  }
+  
+
+
 
 /************************************/
 /*** 	  07. Our Feature css	  ***/
