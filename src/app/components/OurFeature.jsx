@@ -11,24 +11,24 @@ function OurFeature() {
             <div className="our-feature-images">
               <div className="feature-image">
                 <figure className="image-anime reveal">
-                  <Image src="/images/feature_1.jpg" alt="Feature 1" width={500} height={500} />
+                  <Image src="/images/whychoose.jpg" alt="Feature 1" width={500} height={500} />
                 </figure>
               </div>
 
               <div className="company-experience-info">
                 <div className="feature-image">
                   <figure className="image-anime reveal">
-                    <Image src="/images/feature-image-2.jpg" alt="Feature 2" width={500} height={500} />
+                    <Image src="/images/feature3.jpg" alt="Feature 2" width={500} height={500} />
                   </figure>
                 </div>
 
                 <div className="company-experience-box">
                   <div className="company-experience-content">
                     <h2><span className="counter">25</span>+</h2>
-                    <p>Years of experience in cyber security</p>
+                    <p>Years of experience in network</p>
                   </div>
 
-                  <div className="our-client-images company-client-images">
+                  {/* <div className="our-client-images company-client-images">
                     <div className="client-image">
                       <figure className="image-anime">
                         <Image src="/images/client-image-1.jpg" alt="Client 1" width={80} height={80} />
@@ -47,7 +47,7 @@ function OurFeature() {
                     <div className="client-image client-counter">
                       <h3><span className="counter">25</span>k</h3>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
             <div className="why-choose-image">
               <figure className="image-anime reveal">
                 <Image 
-                  src="/images/why-choose-image.jpg" 
+                  src="/images/feature1.jpg" 
                   alt="Why choose us illustration"
                   width={600} // Set appropriate width
                   height={400} // Set appropriate height

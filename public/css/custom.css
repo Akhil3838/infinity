@@ -832,7 +832,7 @@ header.main-header .header-sticky.active{
 
 .hero{
 	position: relative;
-	background: url('../images/hero-bg.jpg');
+	background: url('../images/hero.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -3099,7 +3099,7 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background-image: url('../images/page-header-bg.jpg');
+	background-image: url('../images/hero.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;

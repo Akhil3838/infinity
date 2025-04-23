@@ -96,23 +96,6 @@ export default function Home() {
     {/*  end testimonial */}
 
 
-    <div className="our-blog">
-      <div className="container">
-        <div className="row section-row">
-          <div className="col-lg-12">
-            {/* Section Title Start */}
-            <div className="section-title">
-              <h3 className="wow fadeInUp">latest post</h3>
-              <h2 className="wow fadeInUp" data-wow-delay="0.2s" data-cursor="-opaque">
-                Our latest <span>insight blog</span>
-              </h2>
-            </div>
-            {/* Section Title End */}
-          </div>
-        </div>
-     {/* <OurBlog/> */}
-      </div>
-    </div>
     {/* <FaqSection/> */}
 
     <div className="cta-box-section">

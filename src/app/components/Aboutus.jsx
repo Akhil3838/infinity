@@ -11,7 +11,7 @@ function Aboutus() {
           <div className="about-us-image">
             <div className="about-image-box about-img-1">
               <figure className="image-anime reveal">
-                <Image src="/images/about-image-1.jpg" alt="About Image 1" width={500} height={500} />
+                <Image src="/images/automationp.jpg" alt="About Image 1" width={500} height={900} />
               </figure>
             </div>
 
@@ -24,7 +24,7 @@ function Aboutus() {
 
               <div className="about-img-3">
                 <figure className="image-anime reveal">
-                  <Image src="/images/about_3.jpg" alt="About Image 3" width={500} height={500} />
+                  <Image src="/images/solarhome.jpg" alt="About Image 3" width={500} height={500} />
                 </figure>
               </div>
             </div>
@@ -55,15 +55,14 @@ function Aboutus() {
     <div className="about-us-body wow fadeInUp" data-wow-delay="0.6s">
       <div className="about-us-body-img">
         <figure className="image-anime">
-          <Image src="/images/mix.jpg" alt="Body Image" width={500} height={300} />
+          <Image src="/images/mix.jpg" alt="Body Image" width={100} height={100} />
         </figure>
       </div>
 
       <div className="about-us-body-content">
         <h3>Trusted Services for Modern Living</h3>
         <small className='text-white'>
-          Infynity offers end-to-end solutions including digital TV, high-speed broadband, solar energy systems, 
-          advanced CCTV surveillance, home automation. Our commitment is to empower your space with smart connectivity.
+          Infynity offers end-to-end solutions including digital TV.
         </small>
       </div>
     </div>
